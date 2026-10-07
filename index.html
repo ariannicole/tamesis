@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arian Nicole Tamesis — Front-End Developer Portfolio</title>
+  <meta name="description" content="Fresh BSIT Graduate • Aspiring Front End and Back End Developer • Interested in responsive design and interactive interfaces." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ===== Custom Cursor ===== -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- ===== Preloader ===== -->
+  <div class="preloader">
+    <div class="preloader__dot"></div>
+    <p class="preloader__text">Loading Portfolio</p>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container header__container">
+      <div class="logo">
+        <span class="logo__dot"></span>
+        <span class="logo__name">Arian Nicole Tamesis</span>
+      </div>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link active">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#stats" class="nav__link">Stats</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero section">
+    <div class="container hero__container">
+      <div class="hero__content" data-animate>
+        <div class="hero__badge badge">Available for Opportunities</div>
+
+        <h1 class="hero__title">
+          <span class="hero__greeting">Hey, I'm</span>
+          <span class="hero__name">Arian Nicole Tamesis</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          <span class="hero__role">Front-End Developer</span>
+        </p>
+
+        <p class="hero__bio">
+          Fresh BSIT Graduate <span class="hero__separator">&middot;</span> Aspiring Front End and Back End Developer.
+          Currently improving JavaScript skills and building responsive websites with clean, interactive interfaces.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Get In Touch</a>
+          <a href="resume.txt" class="btn btn--secondary" download>
+            <i class="icon-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual" data-animate>
+        <div class="hero__card card">
+          <div class="hero__card-inner">
+            <div class="hero__card-face hero__card-face--front">
+              <i class="icon-code"></i>
+              <span class="hero__card-label">HTML5</span>
+            </div>
+            <div class="hero__card-face hero__card-face--back">
+              <i class="icon-code"></i>
+              <span class="hero__card-label">CSS3</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__card card hero__card--delay">
+          <div class="hero__card-inner">
+            <div class="hero__card-face hero__card-face--front">
+              <i class="icon-code"></i>
+              <span class="hero__card-label">JavaScript</span>
+            </div>
+            <div class="hero__card-face hero__card-face--back">
+              <i class="icon-code"></i>
+              <span class="hero__card-label">React.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <h2 class="section__title">About Me</h2>
+        <p class="section__subtitle">Fresh BSIT Graduate passionate about creating real-world solutions</p>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__info card" data-animate>
+          <h3 class="about__info-title">Developer Mindset</h3>
+          <ul class="mindset__list">
+            <li class="mindset__item">
+              <span class="mindset__icon">🎯</span>
+              <span>Perseverance</span>
+            </li>
+            <li class="mindset__item">
+              <span class="mindset__icon">📈</span>
+              <span>Continuous Learning</span>
+            </li>
+            <li class="mindset__item">
+              <span class="mindset__icon">💡</span>
+              <span>Problem Solving</span>
+            </li>
+            <li class="mindset__item">
+              <span class="mindset__icon">🧠</span>
+              <span>Logical Thinking</span>
+            </li>
+          </ul>
+
+          <div class="about__details">
+            <div class="detail">
+              <span class="detail__label">Education</span>
+              <span class="detail__value">Bachelor of Science in Information Technology (BSIT)</span>
+            </div>
+            <div class="detail">
+              <span class="detail__label">Role</span>
+              <span class="detail__value">Front-End Developer</span>
+            </div>
+            <div class="detail">
+              <span class="detail__label">GitHub</span>
+              <span class="detail__value">
+                <a href="https://github.com/ariannicole" target="_blank" rel="noopener noreferrer">github.com/ariannicole</a>
+              </span>
+            </div>
+            <div class="detail">
+              <span class="detail__label">Email</span>
+              <span class="detail__value">
+                <a href="mailto:arian_tamesis@sjp2cd.edu.ph">arian_tamesis@sjp2cd.edu.ph</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__story card" data-animate>
+          <h3 class="about__info-title">What I'm Currently Working On</h3>
+          <ul class="work__list">
+            <li class="work__item">
+              <span class="work__icon">⚡</span>
+              <span>Improving my JavaScript skills</span>
+            </li>
+            <li class="work__item">
+              <span class="work__icon">⚛️</span>
+              <span>Learning React.js</span>
+            </li>
+            <li class="work__item">
+              <span class="work__icon">🌐</span>
+              <span>Building responsive websites</span>
+            </li>
+            <li class="work__item">
+              <span class="work__icon">🎨</span>
+              <span>Improving UI/UX design</span>
+            </li>
+            <li class="work__item">
+              <span class="work__icon">🚀</span>
+              <span>Creating more real-world projects</span>
+            </li>
+          </ul>
+
+          <blockquote class="about__quote">
+            <p>"I enjoy creating projects that solve real-world problems and crafting interfaces that
+              people actually enjoy using."</p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <h2 class="section__title">Technologies &amp; Tools</h2>
+        <p class="section__subtitle">Skills I use to build modern web experiences</p>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skill__category card" data-animate>
+          <h3 class="skill__title">Front-End</h3>
+          <div class="skill__chips">
+            <span class="chip chip--html">HTML5</span>
+            <span class="chip chip--css">CSS3</span>
+            <span class="chip chip--js">JavaScript</span>
+            <span class="chip chip--react">React.js</span>
+            <span class="chip chip--git">Git</span>
+            <span class="chip chip--github">GitHub</span>
+            <span class="chip chip--vscode">VS Code</span>
+            <span class="chip chip--netbeans">NetBeans</span>
+          </div>
+        </div>
+
+        <div class="skill__bars card" data-animate>
+          <h3 class="skill__title">Proficiency</h3>
+          <div class="skill__bar-group">
+            <div class="skill__bar-label">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__bar-fill" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill__bar-group">
+            <div class="skill__bar-label">
+              <span>CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__bar-fill" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill__bar-group">
+            <div class="skill__bar-label">
+              <span>JavaScript</span>
+              <span>70%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__bar-fill" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="skill__bar-group">
+            <div class="skill__bar-label">
+              <span>React</span>
+              <span>55%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__bar-fill" style="width: 55%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <h2 class="section__title">Featured Projects</h2>
+        <p class="section__subtitle">Interactive project cards fetched from GitHub</p>
+      </div>
+
+      <div class="projects__grid" id="projectsGrid">
+        <p class="projects__loading">Loading projects from GitHub...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GitHub Stats ===== -->
+  <section class="stats section" id="stats">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <h2 class="section__title">GitHub Stats</h2>
+        <p class="section__subtitle">My coding activity and contributions</p>
+      </div>
+
+      <div class="stats__grid">
+        <div class="stats__card card" data-animate>
+          <img class="stats__img" alt="GitHub Stats" id="githubStats" />
+        </div>
+
+        <div class="stats__card card" data-animate>
+          <img class="stats__img" alt="Top Languages" id="topLanguages" />
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem;" data-animate>
+        <a href="https://github.com/ariannicole" target="_blank" rel="noopener noreferrer"
+           class="btn btn--ghost">
+          View My GitHub Profile
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <h2 class="section__title">Contact Me</h2>
+        <p class="section__subtitle">Let's connect and build something amazing together</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info card" data-animate>
+          <h3>Let's Talk</h3>
+          <p>I'm actively looking for front-end developer opportunities and collaborations.
+             Feel free to reach out about projects, jobs, or just to say hello!</p>
+
+          <div class="contact__methods">
+            <div class="contact__method">
+              <i class="icon-github"></i>
+              <span>GitHub</span>
+              <a href="https://github.com/ariannicole" target="_blank" rel="noopener noreferrer">github.com/ariannicole</a>
+            </div>
+            <div class="contact__method">
+              <i class="icon-email"></i>
+              <span>Email</span>
+              <a href="mailto:arianicolet@gmail.com">arianicolet@gmail.com</a>
+              <a href="mailto:arian_tamesis@sjp2cd.edu.ph" style="display:block; margin-top:.25rem; font-size:.85rem;">arian_tamesis@sjp2cd.edu.ph</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form-container card" data-animate>
+          <form class="contact__form" id="contactForm">
+            <div class="form__group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form__group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form__group">
+              <textarea id="message" name="message" rows="5"
+                        placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__content" data-animate>
+        <div class="footer__brand">
+          <span class="logo__dot"></span>
+          <span class="logo__name">Arian Nicole Tamesis</span>
+        </div>
+        <p class="footer__text">Front-End Developer &bull; BSIT Graduate</p>
+        <div class="footer__social">
+          <a href="https://github.com/ariannicole" target="_blank" rel="noopener noreferrer"
+             class="footer__social-link">GitHub</a>
+          <a href="mailto:arianicolet@gmail.com" class="footer__social-link">Email</a>
+        </div>
+      </div>
+      <div class="footer__bottom" data-animate>
+        <p>&copy; 2025 Arian Nicole Tamesis. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Back to Top ===== -->
+  <button class="back-to-top" id="backToTop">
+    <i class="icon-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+==================================================
+         Arian Nicole Tamesis
+         Front-End Developer Portfolio
+==================================================
+
+CONTACT
+--------------------------------------------------
+GitHub:  https://github.com/ariannicole
+Email:   arian_tamesis@sjp2cd.edu.ph
+Email:   arianicolet@gmail.com
+
+
+ABOUT
+--------------------------------------------------
+Fresh BSIT Graduate with a passion for front-end
+and back-end development. Currently improving
+skills in JavaScript and building responsive
+websites with a focus on UI/UX design.
+
+I enjoy creating projects that solve real-world
+problems and crafting clean, interactive user
+interfaces that people actually enjoy using.
+
+
+EDUCATION
+--------------------------------------------------
+Bachelor of Science in Information Technology (BSIT)
+
+
+TECHNOLOGIES & TOOLS
+--------------------------------------------------
+Front-End:
+  HTML5, CSS3, JavaScript, React.js (learning)
+
+Tools:
+  Git, GitHub, VS Code, NetBeans
+
+
+DEVELOPER MINDSET
+--------------------------------------------------
+- Perseverance
+- Continuous Learning
+- Problem Solving
+- Logical Thinking
+
+
+CURRENTLY WORKING ON
+--------------------------------------------------
+- Improving my JavaScript skills
+- Learning React.js
+- Building responsive websites
+- Improving UI/UX design
+- Creating more real-world projects
+
+
+FEATURED PROJECTS
+--------------------------------------------------
+Check out my GitHub profile for featured projects:
+https://github.com/ariannicole
+
+==================================================
